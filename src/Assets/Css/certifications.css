@@ -1,0 +1,52 @@
+.certifications {
+  height: 280px;
+  margin-top: 30px;
+}
+.certificationsBody {
+  visibility: inherit !important;
+  height: auto !important;
+}
+.control-dots {
+  visibility: hidden;
+}
+.carousel .carousel-status {
+  top: inherit !important;
+  bottom: 0;
+  font-size: 15px;
+  color: #000;
+  right: 7px;
+}
+.carousel.carousel-slider .control-arrow {
+  font-size: 26px;
+  margin: auto 0;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+.carousel.carousel-slider .control-prev.control-arrow {
+  margin-left: -18px;
+}
+.carousel.carousel-slider .control-next.control-arrow {
+  margin-right: -18px;
+}
+.carousel .control-arrow {
+  background-color: #fff !important;
+  padding: 18px 5px !important;
+  opacity: 1 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid var(--thirdcolor) !important;
+}
+.carousel .control-prev.control-arrow::before {
+  border-right: 16px solid #858585;
+}
+.carousel .control-next.control-arrow::before {
+  border-left: 16px solid #858585;
+}
+.carousel.carousel-slider {
+  overflow: visible;
+}

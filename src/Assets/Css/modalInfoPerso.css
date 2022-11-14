@@ -1,0 +1,64 @@
+.modalInfoPerso{
+    background-color: white;
+    width: 35%;
+    position: absolute;
+    height: 500px;
+    overflow-y: auto;
+    right: 90px;
+    top: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    /* visibility: hidden; */
+    /* transform: translateY(500px); */
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+.modalInfoPersoAfficher {
+    /* visibility: inherit; */
+    /* transform: translateY(0); */
+    top: 70px;
+}
+.modalInfoPerso_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.modalInfoPerso_title > h2, .modalInfoPerso_home_content h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.modalInfoPerso_title_icons {
+    cursor: pointer;
+    font-size: 30px;
+    color: #ff0000;
+}
+.modalInfoPerso_home {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.modalInfoPerso_home_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.modalInfoPerso_home_content_label {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 8px;
+}
+.modalInfoPerso_home_content_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 0;
+    margin-left: 30px;
+}
+.modalInfoPerso_home_content_text > :nth-child(2) {
+    color: gray;
+}

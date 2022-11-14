@@ -1,0 +1,161 @@
+.professionalExperiences {
+  width: 90%;
+  display: flex;
+  background-color: #f3f5ff;
+  margin: 0 auto;
+  margin-top: 5rem;
+  justify-content: space-around;
+  align-items: top;
+  padding: 40px 0;
+}
+.professionalExperiences_ImagePart {
+  background-image: repeating-linear-gradient(
+      249deg,
+      transparent 0px,
+      transparent 3px,
+      rgb(255, 255, 255) 3px,
+      rgb(255, 255, 255) 32px
+    ),
+    repeating-linear-gradient(
+      307deg,
+      transparent 0px,
+      transparent 3px,
+      rgb(255, 255, 255) 3px,
+      rgb(255, 255, 255) 32px
+    ),
+    linear-gradient(
+      90deg,
+      hsl(191, 85%, 78%),
+      hsl(242.429, 85%, 78%),
+      hsl(293.857, 85%, 78%),
+      hsl(345.286, 85%, 78%),
+      hsl(36.714, 85%, 78%),
+      hsl(88.143, 85%, 78%),
+      hsl(139.571, 85%, 78%)
+    );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 330px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px -1px 8px;
+}
+.professionalExperiences_ImagePart > h2 {
+  text-align: center;
+}
+.professionalExperiences_InfoPartHome {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 30px;
+}
+.professionalExperiences_InfoPart {
+  border: 3px solid var(--color4);
+  width: 100%;
+  background-color: var(--color1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box !important;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0, 1.86, 0.67, 0.41);
+}
+.professionalExperiences_InfoPartClosed:hover {
+  box-shadow: #175eee40 0px 7px 29px 0px;
+  border: 3px solid var(--thirdcolor);
+  transform: scaleY(1.04);
+}
+.professionalExperiences_InfoPart_Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid var(--color4);
+}
+.professionalExperiences_InfoPart_HeaderContent {
+  display: flex;
+  gap: 20px;
+}
+.iconeChrevronUpProfessionalExp {
+  font-size: 39px;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+.professionalExperiences_InfoPart_HeaderLogo {
+  width: 12%;
+}
+.professionalExperiences_InfoPart_HeaderLogo > img {
+  width: 100%;
+}
+.professionalExperiences_InfoPart_LogoTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+}
+.professionalExperiences_InfoPart_LogoTitle > h1 {
+  font-size: 28px;
+}
+.professionalExperiences_InfoPart_LogoTitle > p {
+  color: gray;
+}
+.professionalExperiences_InfoPart_body {
+  visibility: hidden;
+  height: 0;
+}
+.professionalExperiences_InfoPart_bodyOponed {
+  visibility: inherit;
+  height: auto;
+}
+.professionalExperiences_InfoPart_body_part1 {
+  display: flex;
+  align-items: center;
+  color: gray;
+  border-bottom: 1px solid var(--color4);
+  padding: 30px;
+}
+.professionalExperiences_InfoPart_body_part2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.professionalExperiences_InfoPart_body_part2 > span {
+  background-color: var(--thirdcolor);
+  padding: 8px;
+  border-radius: 30px;
+  color: var(--color1);
+  cursor: pointer;
+}
+.professionalExperiences_InfoPart_body_part2 > a {
+  border: 2px solid var(--thirdcolor);
+  padding: 8px;
+  border-radius: 30px;
+  color: var(--thirdcolor);
+  cursor: pointer;
+  text-decoration: none;
+}
+.professionalExperiences_InfoPart_body_part2_ContactPerson {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.iconeProfilProfessionalExp {
+  font-size: 25px;
+}
+.iconeEmailProfessionalExp,
+.iconeTelephoneProfessionalExp {
+  color: var(--thirdcolor);
+  font-size: 20px;
+}
+.contentProfessionalExpField {
+  border: 1px solid var(--thirdcolor);
+  padding: 20px;
+  margin: 20px 0;
+}
+.contentProfessionalExpField > :nth-child(1) {
+  text-align: center;
+}

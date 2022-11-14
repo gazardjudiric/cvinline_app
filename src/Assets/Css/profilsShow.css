@@ -1,0 +1,176 @@
+.profilsShow {
+  position: relative;
+}
+.profilsShow > :nth-child(1) {
+  display: flex;
+  background-color: var(--thirdcolor);
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: 50px auto;
+  border-radius: 16px;
+  align-items: center;
+}
+.profilsShow_ImgContainer {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.profilsShow_ImgContainer > div {
+  display: flex;
+  height: 100%;
+}
+.profilsShow_ImgContainer > div > img {
+  width: 100%;
+  height: 100%;
+}
+.profilsShow_Information_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+.profilsShow_Information_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+  gap: 10px;
+}
+.profilsShow_Information_content > :nth-child(1) {
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+}
+.profilsShow_Information_content > :nth-child(1) h1 {
+  font-size: 40px;
+  color: var(--color1);
+  font-weight: bold;
+}
+.profilsShow_Information_content > h2 {
+  color: var(--color1);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.profilsShow_Information_content > p {
+  color: var(--color1);
+  margin-bottom: 25px;
+}
+.profilsShow_Information_content_AfterDescription {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 10px;
+}
+.profilsShow_Information_content_AfterDescription > :nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color1);
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.profilsShow_Information_content_AfterDescription
+  > :nth-child(1)
+  > :nth-child(1) {
+  font-size: 28px;
+  display: flex;
+}
+.profilsShow_Information_content_AfterDescription
+  > :nth-child(1)
+  > :nth-child(2) {
+  text-decoration: none;
+  color: var(--color2);
+  font-weight: 600;
+}
+.profilsShow_Information_content_AfterDescription > :nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid var(--color1);
+}
+.profilsShow_Information_content_AfterDescription
+  > :nth-child(2)
+  > :nth-child(1) {
+  font-size: 28px;
+  display: flex;
+  color: var(--color1);
+}
+.profilsShow_Information_content_AfterDescription
+  > :nth-child(2)
+  > :nth-child(2) {
+  cursor: pointer;
+  color: var(--color1);
+  font-weight: 700;
+}
+.socialMedia {
+  background-color: var(--color1);
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 55%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  left: 50%;
+  top: 360px;
+  transform: translateX(-50%);
+}
+.socialMediaContent {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.socialMediaIcones {
+  font-size: 35px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: var(--thirdcolor);
+}
+.beforeSkills {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+.beforeSkillsContent {
+  display: flex;
+  padding: 19px 20px;
+  border-radius: 30px;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.beforeSkillsContentLienVideo {
+  background-color: var(--thirdcolor);
+  color: var(--color1);
+}
+.beforeSkillsContentLettreMotivation {
+  background-color: transparent;
+  color: var(--thirdcolor);
+  border: 2px dashed var(--thirdcolor);
+}
+.beforeSkillsContentSaveContact {
+  background-color: transparent;
+  color: var(--thirdcolor);
+}
